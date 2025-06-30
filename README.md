@@ -7,7 +7,7 @@ Using the movements of one's eyes, Field Mouse, once completed, will allow the u
 
 The best part? **No expensive hardware necessary**--just the computer's webcam.
 
-## Installation / End Functional ##
+## Installation / End Functionality ##
 When the project is complete, the plan is to put the code into an app, allowing for a simpler installation. This may change, though.
 So far, the idea for the commands is:
 
