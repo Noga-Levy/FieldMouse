@@ -29,3 +29,8 @@ THIS MAY BE SUBJECT TO CHANGE
 6. Add UI.
 
 Completion date: TBD
+
+## Contact Me ##
+Gmail: nogalevy17@gmail.com
+
+Link: https://github.com/Noga-Levy/FieldMouse
