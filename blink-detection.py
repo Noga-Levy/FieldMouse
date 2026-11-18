@@ -90,7 +90,7 @@ while running:
     # Show the frame in a window so we see what we are doing:
     if frame_captured:
         cv2.imshow("Dev Video Capture", frame)
-        cv2.waitKey(50)  # Wait 100 milliseconds (or until a key is pressed) to change the frame
+        cv2.waitKey(50)  # Wait 50 milliseconds (or until a key is pressed) to change the frame
 
     else:
         print("Frame unavailable. Check webcam")
