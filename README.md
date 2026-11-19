@@ -1,36 +1,43 @@
-# Field Mouse #
-Whether it is due to an accident, genetic defect, or another reason, many people around the world encounter difficulties using their hands--if they can, at all. Furthermore, with one's hands being the gateway to the internet, it can render what is supposed to be the great connector into the great isolator.
+<h1 align="center">FieldMouse</h1>
+<h2 align="center">The internet should be cheap and accessible.</h2>
 
-Enter Field Mouse.
+To use a computer, one must direct inputs via mouse and a keyboard. Simple, right?
 
-Using the movements of one's eyes, Field Mouse, once completed, will allow the user to control their mouse by simply looking at the area they wish to send their mouse to.
+*Wrong.*
 
-The best part? **No expensive hardware necessary**--just the computer's webcam.
+Tens of thousands of people have injuries and disabilities that make the usage of these two tools painstaking, if not impossible.
 
-## Installation / End Functionality ##
-When the project is complete, the plan is to put the code into an app, allowing for a simpler installation. This may change, though.
-So far, the idea for the commands is:
+Hence, enter Field Mouse.
 
-| Button | Action |
-| ----------- | ----------- |
-| Right Click | Right eye wink |
-| Left Click | Left eye wink |
-| Move | Look at the end point |
-| End Program | Close both eyes for 5 seconds |
+Using the movements of one's eyes, FieldMouse will allow the user to control their mouse by merely looking at the area they would like it to go to.
 
-THIS MAY BE SUBJECT TO CHANGE
+The best part? **No expensive hardware necessary**--only one's time and webcam.
 
-## Plan ##
-1. Get blink detection for the left and right eyes.
-2. Connect the blink detection to the left and right clicks (using PyAutoGUI).
-3. Get the "End Program" ability.
-4. Get the eye fixations.
-5. Connect eye fixation to mouse movement.
-6. Add UI.
+## User Interaction
+Once complete, the following interactions will be possible:
 
-Completion date: TBD
+$$
+\begin{array}{|c|c|}
+\hline
+\textbf{Action} & \textbf{Input} \\
+\hline
+\text{Right click} & \text{Right eye wink} \\
+\hline
+\text {Left click} & \text{Left eye wink} \\
+\hline
+\text{Move mouse} & \text{Look at the end point} \\
+\hline
+\text{End Program} & \text{Close both eyes for 5 seconds} \\
+\hline
+\end{array}
+$$
 
-## Contact Me ##
-Gmail: nogalevy17@gmail.com
+*Note that this is subject to change.*
 
-Link: https://github.com/Noga-Levy/FieldMouse
+## Installation
+
+See [BUILD.md](https://github.com/Noga-Levy/FieldMouse/blob/master/relinking/BUILD.md) for details on local installation. Otherwise, download the latest application file from the Releases page (*none available at the moment*).
+
+## License
+FieldMouse is licensed under the GNU General Public License, version 3--see the [LICENSE](https://github.com/Noga-Levy/FieldMouse/blob/master/LICENSE.md) file for details.
+Check [NOTICE.md](https://github.com/Noga-Levy/FieldMouse/blob/master/NOTICE.md) for third-party attribution.
